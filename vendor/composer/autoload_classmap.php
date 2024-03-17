@@ -10,6 +10,8 @@ return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Controller' => $baseDir . '/app/Core/Controller.php',
     'Database' => $baseDir . '/app/Core/Database.php',
+    'Migration' => $baseDir . '/app/Models/Migration.php',
+    'MigrationManager' => $baseDir . '/app/Core/MigrationManager.php',
     'Model' => $baseDir . '/app/Core/Model.php',
     'Request' => $baseDir . '/app/Core/Request.php',
 );

@@ -14,7 +14,7 @@
         define('DB_HOST', 'localhost');
         define('DB_USER', 'root');
         define('DB_PASS', 'toor');
-        define('DB_NAME', 'psaltakis_nikolaos_ge3_db');
+        define('DB_NAME', 'mvcDB');
     }else {
         //live server
         define('ROOT', $_SERVER['HTTP_HOST'] . '/public');
@@ -22,5 +22,5 @@
         define('DB_HOST', 'localhost');
         define('DB_USER', 'root');
         define('DB_PASS', 'toor');
-        define('DB_NAME', 'psaltakis_nikolaos_ge3_db');
+        define('DB_NAME', 'mvcDB');
     }
